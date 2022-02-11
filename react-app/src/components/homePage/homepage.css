@@ -1,0 +1,51 @@
+.browse{
+    color:black;
+    font-size:30px;
+}
+.homeBody{
+display: flex;
+justify-content:center;
+margin: center;
+}
+
+.logged_in_nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:center;
+    padding: 10px;
+}
+
+.homeImage{
+    padding:20px;
+}
+
+.home_img_1{
+    display:flex;
+    justify-content:center;
+    margin:center;
+    padding:50px;
+}
+.home_img1{
+    border-radius: 20px;
+}
+.home_img_2{
+    display:flex;
+    justify-content:center;
+    margin:center;
+    padding:50px;
+}
+.home_img2{
+    border-radius: 20px;
+}
+.centered{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hostBtn{
+    display:flex;
+    justify-content:center;
+    margin:center;
+}

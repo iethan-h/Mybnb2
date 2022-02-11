@@ -1,0 +1,69 @@
+.userStories {
+    display: flex;
+    justify-content: center;
+    margin:center;
+}
+
+.locationInfo{
+    border-bottom: 1px solid #0000;
+}
+
+.locationImage{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.locationAddress{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.locationCity{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.locationState{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.locationPrice{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.locationCountry{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.one_location{
+    padding: 5px;
+}
+
+.locationimg{
+    width:50px;
+    height:100px;
+}
+
+.locationImg{
+    width:275px;
+}
+.locationOptions{
+    padding: 5px;
+}
+
+.deleteLocation{
+    margin-right:5px;
+}
+
+.newStory{
+    margin:10px;
+}

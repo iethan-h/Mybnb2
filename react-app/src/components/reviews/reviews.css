@@ -1,0 +1,48 @@
+.reviewBox{
+    margin-top: 50px;
+    height: 200px;
+    width: 250px;
+    padding:15px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reviewOptions{
+    padding:8px;
+}
+
+.loggedInNav{
+    color:black;
+    padding:25px;
+    font-size: 25px;
+}
+
+.locationInfo{
+    padding:75px;
+}
+
+.deleteLocation{
+    color: red;
+}
+
+.formDiv{
+    display:flex;
+    justify-content:center;
+    margin:center;
+}
+
+.Form{
+    display:flex;
+    justify-content:center;
+    margin:center;
+}
+.submit{
+    margin:5px;
+}
+.editReview{
+    margin-top:5px;
+}
+.deleteReview{
+    margin-top:30px;
+}

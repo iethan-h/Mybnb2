@@ -1,0 +1,38 @@
+.footerDiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+}
+
+.footerDiv a img {
+    width: 100%;
+    height: 20px;
+}
+
+.socialMedia {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #D3D3D3 */
+}
+
+.icons{
+    margin-left: 8px;
+}
+footer p {
+    color: white;
+    text-shadow: 0 0 1px #000;
+    font-family: 'Roboto', helvetica,arial,sans-serif;
+    margin-right: 20px;
+    cursor: default;
+} 
+#footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    z-index:1;
+    width:100%;
+ }

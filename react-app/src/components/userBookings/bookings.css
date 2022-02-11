@@ -1,0 +1,21 @@
+.userBookingConfirm{
+    display: flex;
+    justify-content: center;
+    margin:center;
+    padding:25px;
+}
+
+.allUserBookings{
+    /* color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-left: 40%;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px; */
+    display: flex;
+    justify-content: center;
+    margin:center;
+}
