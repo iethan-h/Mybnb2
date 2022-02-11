@@ -24,12 +24,6 @@ const Home = () =>{
     return(
         <> 
             <div className="hostBtn">
-            <button onClick={() => setShowModal(true)} style={{fontSize:"25px"}}>Be a host</button>
-            {showModal && (
-                <Modal onClose={() => setShowModal(false)}>
-                    <NewHostForm  setShowModal={setShowModal}/>
-                </Modal>
-            )}
             </div>
         <div className='homeBody'>
             <h1 className='greeter'>Find your next adventure with Mybnb!</h1>

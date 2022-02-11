@@ -4,11 +4,14 @@ import SearchBar from './searchBar';
 import LogoutButton from '../auth/LogoutButton'
 import ProfileButton from './profileButton';
 import { useSelector } from 'react-redux';
+import { Modal } from '../../context/Modal';
+import { useState } from 'react';
+import NewHostForm from '../newHost/newHostForm'
 import './searchBar.css'
 
 const Header = () => {
   const user = useSelector(state => state.session.user);
-
+  const [showModal, setShowModal] = useState(false);
   return (
     <>
     <header>
@@ -20,7 +23,12 @@ const Header = () => {
             </div>
             <SearchBar />
             <div> 
-                <LogoutButton />
+            <button onClick={() => setShowModal(true)} style={{fontSize:"25px"}}>Be a host</button>
+            {showModal && (
+                <Modal onClose={() => setShowModal(false)}>
+                    <NewHostForm  setShowModal={setShowModal}/>
+                </Modal>
+            )}
             </div>
             <div>
             <ProfileButton user={user}/>

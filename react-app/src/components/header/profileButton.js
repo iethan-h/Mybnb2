@@ -2,10 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { useSearch } from '../../context/searchContext';
-import { login, logout } from '../../store/session';
-import { signUp } from '../../store/session';
+import { logout } from '../../store/session';
+
+
 
 const ProfileButton = ({user}) => {
+    
+
     const dispatch = useDispatch();
     const [showMenu, setShowMenu] = useState(false);
     const {setShowSearch, setSearchCity, setSearchState} = useSearch();
@@ -54,9 +57,6 @@ const ProfileButton = ({user}) => {
                             <div className="loggedInProfileDropDown">
                                 <Link to={`/bookings/${user?.id}`}>
                                     <div className="profileDropDownLinks">Your bookings</div>
-                                </Link>
-                                <Link to="/">
-                                    <div className="profileDropDownLinks">Be a host</div>
                                 </Link>
                                 <div className="dropDownLine"></div>
                                 <div className="logOutButton" onClick={onLogout}>Log out</div>
