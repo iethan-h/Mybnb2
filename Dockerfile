@@ -4,7 +4,7 @@ WORKDIR /react-app
 COPY react-app/. .
 
 # You have to set this because it should be set during build time.
-ENV REACT_APP_BASE_URL=<Your-REACT_APP_BASE_URL-here>
+ENV REACT_APP_BASE_URL=https://mybnb-new.herokuapp.com
 
 # Build our React App
 RUN npm install
@@ -29,3 +29,4 @@ RUN pip install psycopg2
 
 # Run flask environment
 CMD gunicorn app:app
+
